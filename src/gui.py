@@ -303,10 +303,10 @@ def output_add(q,a):
 
 # LAYOUT
 
-with st.sidebar:
-	ui_info()
-	ui_spacer(2)
-	with st.expander('advanced'):
+#with st.sidebar:
+	#ui_info()
+	#ui_spacer(2)
+	#with st.expander('advanced'):
 		ui_show_debug()
 		b_clear()
 		ui_model()
