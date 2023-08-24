@@ -190,7 +190,7 @@ def ui_hyde_prompt():
 def ui_question():
 	st.write('## 3. Ask questions'+(f' to {ss["filename"]}' if ss.get('filename') else ''))
 	disabled = False
-	st.text_area('question', key='question', height=100, placeholder='Enter question here', help='', label_visibility="collapsed", disabled=disabled)
+	st.text_area('question', key='question', height=400, placeholder='Enter question here', help='', label_visibility="collapsed", disabled=disabled)
 
 # REF: Hypotetical Document Embeddings
 def ui_hyde_answer():
